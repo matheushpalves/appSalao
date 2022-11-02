@@ -1,0 +1,145 @@
+object FReserva: TFReserva
+  Left = 0
+  Top = 0
+  Caption = 'App'
+  ClientHeight = 550
+  ClientWidth = 350
+  Fill.Kind = Solid
+  Position = MainFormCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Rectangle1: TRectangle
+    Align = Top
+    Fill.Color = claWhite
+    Sides = [Bottom]
+    Size.Width = 350.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = xFFD6D6D6
+    object Label1: TLabel
+      Align = Contents
+      StyledSettings = [Family]
+      Size.Width = 350.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      TextSettings.FontColor = xFF4C4C4C
+      TextSettings.HorzAlign = Center
+      Text = 'Fazer Reservar'
+      TabOrder = 0
+    end
+    object Image1: TImage
+      MultiResBitmap.Height = 50
+      MultiResBitmap = <
+        item
+          Width = 50
+          Height = 50
+          PNG = {
+            89504E470D0A1A0A0000000D49484452000000320000003208060000001E3F88
+            B1000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            0199494441546843EDD9CD2B445118C7F1EB2D14F903EC2D14A558886427B124
+            656D6D69692D1B3BA56C892C94C44A64636129297F00C94B5E0A79FFFE346741
+            8F3B99A9B9E74CE75B9FA6593EDDB9E79E732789C562B158AC88AA729F59548F
+            7E34E30C1F08AE569CE233E7008D08AA765CC00DE14C23983A7085DF43C80A82
+            A80B37B0869049785F376E610D203BA881D7F5E21ED600B28B06785D1F1E600D
+            205BD032EC7503788435806CA20E5E3788275803C81ABCBF2786F10C6B00D132
+            5B0DAF1BC50BAC016419DE0F3186575803C8222AE175E3481B6201DE0F318177
+            5803C83C2AE075DA86A70D318B205A823580CCA06415FBBBD5D5F8AB2C0F6DFF
+            4EFBA8B49FD61CBCBF3F5C65B162B9CAE219E21A41F04F75D710D2368BABF07E
+            B3E8CAB7F3DD402D82480FCAB40355106711974E876947DC6D787F3A74E93973
+            076B10D983F7E7755727AE610D22FB08E62D63BE775A1A269805406F192F610D
+            225308A63658EF7D651D0557EA6DC311B4349F7F7FFBD971EE33A85A70027735
+            0ED18482CB728BAD9BBB07DA6CEAFF9137C462B1582C964149F205D7BAE8195A
+            95BC2B0000000049454E44AE426082}
+          FileName = 'D:\Projetos\AppSalao\Imagens\icons8-voltar-50.png'
+        end>
+      Align = Left
+      Margins.Top = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object Label2: TLabel
+    Align = Top
+    StyledSettings = [Family]
+    Margins.Top = 10.000000000000000000
+    Position.Y = 60.000000000000000000
+    Size.Width = 350.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 16.000000000000000000
+    TextSettings.FontColor = xFF717171
+    TextSettings.HorzAlign = Center
+    Text = 'Escolha uma Data e H'#243'rario Para sua Reserva'
+    TabOrder = 1
+  end
+  object Calendar1: TCalendar
+    Align = Top
+    Date = 44852.000000000000000000
+    Margins.Top = 5.000000000000000000
+    Position.Y = 82.000000000000000000
+    Size.Width = 350.000000000000000000
+    Size.Height = 223.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+  end
+  object Label3: TLabel
+    Align = Top
+    StyledSettings = [Family]
+    Margins.Left = 5.000000000000000000
+    Margins.Top = 10.000000000000000000
+    Margins.Right = 5.000000000000000000
+    Position.X = 5.000000000000000000
+    Position.Y = 315.000000000000000000
+    Size.Width = 340.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 16.000000000000000000
+    TextSettings.FontColor = xFF717171
+    Text = 'H'#243'rario'
+    TabOrder = 0
+  end
+  object ListBox1: TListBox
+    Align = Client
+    Size.Width = 350.000000000000000000
+    Size.Height = 151.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'transparentlistboxstyle'
+    TabOrder = 4
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 350.000000000000000000
+    Viewport.Height = 151.000000000000000000
+  end
+  object confirmar: TRectangle
+    Align = Bottom
+    Fill.Color = xFF4E4E4E
+    Margins.Top = 5.000000000000000000
+    Position.Y = 488.000000000000000000
+    Size.Width = 350.000000000000000000
+    Size.Height = 62.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    XRadius = 6.000000000000000000
+    YRadius = 6.000000000000000000
+    object btnAgendar: TSpeedButton
+      Align = Client
+      StyledSettings = [Family, Size]
+      Size.Width = 350.000000000000000000
+      Size.Height = 62.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Agendar'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      TextSettings.FontColor = claWhite
+    end
+  end
+end

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/10/03 20:25:32.000.544,=C:\Users\mathe\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/03 20:33:58.000.281,C:\Users\mathe\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\Projetos\AppSalao\Mobile\uLogin.pas</Transaction>
+    <Transaction>2022/10/03 20:33:58.000.281,C:\Users\mathe\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.fmx=D:\Projetos\AppSalao\Mobile\uLogin.fmx</Transaction>
+    <Transaction>2022/10/03 20:34:07.000.845,C:\Users\mathe\OneDrive\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\Projetos\AppSalao\Mobile\AppSalao.dproj</Transaction>
+    <Transaction>2022/10/04 06:37:54.000.121,=D:\Projetos\AppSalao\Mobile\Unit1.pas</Transaction>
+    <Transaction>2022/10/04 06:39:02.000.750,D:\Projetos\AppSalao\Mobile\Unit1.fmx=D:\Projetos\AppSalao\Mobile\uPrincipal.fmx</Transaction>
+    <Transaction>2022/10/04 06:39:02.000.750,D:\Projetos\AppSalao\Mobile\Unit1.pas=D:\Projetos\AppSalao\Mobile\uPrincipal.pas</Transaction>
+    <Transaction>2022/10/18 05:44:45.000.891,=D:\Projetos\AppSalao\Mobile\Unit1.pas</Transaction>
+    <Transaction>2022/10/18 05:45:59.000.165,D:\Projetos\AppSalao\Mobile\Unit1.pas=D:\Projetos\AppSalao\Mobile\uServico.pas</Transaction>
+    <Transaction>2022/10/18 05:45:59.000.165,D:\Projetos\AppSalao\Mobile\Unit1.fmx=D:\Projetos\AppSalao\Mobile\uServico.fmx</Transaction>
+    <Transaction>2022/10/18 06:18:26.585,=D:\Projetos\AppSalao\Mobile\Unit1.pas</Transaction>
+    <Transaction>2022/10/18 06:18:50.096,D:\Projetos\AppSalao\Mobile\uReserva.pas=D:\Projetos\AppSalao\Mobile\Unit1.pas</Transaction>
+    <Transaction>2022/10/18 06:18:50.096,D:\Projetos\AppSalao\Mobile\uReserva.fmx=D:\Projetos\AppSalao\Mobile\Unit1.fmx</Transaction>
+    <Transaction>2022/10/18 06:58:23.958,=D:\Projetos\AppSalao\Units\uHorizontalMenu.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>
